@@ -42,6 +42,26 @@
     .nav-item {
         text-align: center;
     }
+    .input-group-field {
+        width: 25px;
+    }
+    .adult {
+        position: relative;
+        margin-top: 20px;
+    }
+    .input-button {
+        position: absolute;
+        margin-top: -5px;
+        right: 0;
+    }
+    .adult-p {
+        position: absolute;
+        margin-top: -10px;
+        left: 0;
+    }
+    .adult-price {
+        display: none;
+    }
 }
 
 
@@ -53,6 +73,26 @@
 @media (min-width: 481px) and (max-width: 767px) {
     .nav-item {
         text-align: center;
+    }
+    .input-group-field {
+        width: 25px;
+    }
+    .adult {
+        position: relative;
+        margin-top: 20px;
+    }
+    .input-button {
+        position: absolute;
+        margin-top: -5px;
+        right: 0;
+    }
+    .adult-p {
+        position: absolute;
+        margin-top: -10px;
+        left: 0;
+    }
+    .adult-price {
+        display: none;
     }
 }
 
@@ -82,5 +122,34 @@
     }
     footer {
         text-align: center;
+    }
+    .adult {
+        flex-direction: column;
+    }
+    .input-group-field {
+        width: 25px;
+    }
+    .adult {
+        position: relative;
+        margin-top: 20px;
+    }
+    .input-button {
+        position: absolute;
+        margin-top: -5px;
+        right: 0;
+    }
+    .adult-p {
+        position: absolute;
+        margin-top: -10px;
+        left: 0;
+    }
+    .adult-price {
+        display: none;
+    }
+    .single-main {
+        flex-direction: column-reverse;
+    }
+    .package-options-inner button {
+        margin-bottom: 10px;
     }
 }
