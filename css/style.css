@@ -459,6 +459,14 @@ footer ul li a i {
     width: 90%;
 }
 
+.package-options {
+    display: none;
+}
+
+.package-options-step2 {
+    display: none;
+}
+
 .package-options-inner {
     background: #f6f7f9;
     padding: 10px 30px;

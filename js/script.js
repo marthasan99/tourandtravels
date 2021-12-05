@@ -34,3 +34,23 @@ jQuery(document).ready(function() {
         }
     });
 });
+
+const btn3 = document.querySelector(".btn3");
+const btn6 = document.querySelector(".btn6");
+const btn7 = document.querySelector(".btn7");
+const btn8 = document.querySelector(".btn8");
+const packageOptions = document.querySelector(".package-options");
+const packageOptions2 = document.querySelector(".package-options-step2");
+
+btn3.addEventListener('click', function() {
+    packageOptions.style.display = "block";
+})
+btn6.addEventListener('click', function() {
+    packageOptions2.style.display = "block";
+})
+btn7.addEventListener('click', function() {
+    packageOptions2.style.display = "block";
+})
+btn8.addEventListener('click', function() {
+    packageOptions2.style.display = "block";
+})
