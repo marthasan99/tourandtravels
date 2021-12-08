@@ -37,20 +37,37 @@ jQuery(document).ready(function() {
 
 const btn3 = document.querySelector(".btn3");
 const btn6 = document.querySelector(".btn6");
-const btn7 = document.querySelector(".btn7");
-const btn8 = document.querySelector(".btn8");
+const btn11 = document.querySelector(".btn11");
+const btn12 = document.querySelector(".btn12");
+const btn14 = document.querySelector(".btn14");
+const btn15 = document.querySelector(".btn15");
+const btn16 = document.querySelector(".btn16");
 const packageOptions = document.querySelector(".package-options");
 const packageOptions2 = document.querySelector(".package-options-step2");
+const packageOptions3 = document.querySelector(".package-options-step3");
+const packageOptions4 = document.querySelector(".package-options-step4");
 
 btn3.addEventListener('click', function() {
     packageOptions.style.display = "block";
 })
 btn6.addEventListener('click', function() {
     packageOptions2.style.display = "block";
+    packageOptions3.style.display = "block";
 })
-btn7.addEventListener('click', function() {
+btn11.addEventListener('click', function() {
     packageOptions2.style.display = "block";
+    packageOptions3.style.display = "block";
 })
-btn8.addEventListener('click', function() {
-    packageOptions2.style.display = "block";
+btn12.addEventListener('click', function() {
+    packageOptions3.style.display = "block";
+    packageOptions2.style.display = "none";
+})
+btn14.addEventListener('click', function() {
+    packageOptions4.style.display = "block";
+})
+btn15.addEventListener('click', function() {
+    packageOptions4.style.display = "block";
+})
+btn16.addEventListener('click', function() {
+    packageOptions4.style.display = "block";
 })
